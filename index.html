@@ -11,37 +11,45 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
-
+    <form action="">
+    
       <!-- Add a label for 'fullname'-->
-
+      <label for="fullname">Full Name:</label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
-
+      <input type="text" id="fullname" name="fullname" placeholder="Enter Name" value="fullname" required><br>
 
       <!-- Add a label for 'email'-->
-
+      <label for="email">E-mail:</label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
-
+      <input type="email" id="email" name="email" placeholder="Enter Email"  value="email" width="30px" required><br>
 
       <!-- Add a label for 'phone'-->
-
+      <label for="phone">Phone Number:</label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
-
+      <input type="tel" id="phone" name="phone" placeholder="Enter Telephone (optional)" value="phone"><br>
 
       <!-- Add a label for 'message'-->
-
+      <label for="message">Any comment:</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
-
+      <textarea id="message" name="message" value="Enter Message" placeholder="Enter Message" required></textarea>
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
+      <label for="checkbox">I have a bike</label>
+      <input type="checkbox" id="checkbox" name="vehicle1" value="bike">
+      <label for="checkbox">I have a car</label>
+      <input type="checkbox" id="checkbox" name="vehicle2" value="car">
+      <label for="checkbox">I have a boat</label>
+      <input type="checkbox" id="checkbox" name="vehicle3" value="boat">
+      
 
 
       <!-- Add an input with the type set to 'submit' -->
+      <input type="submit" value="submit">
+    </form>
 
     
   </body>
